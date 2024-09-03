@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  height: 100px;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.featured-projects {
+  height: 250px;
+  text-align: center;
+  padding: 65px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.project-item {
+  height: 120px;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 28%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 7px;
+  transition: 0.3s all ease-in;
+  position: relative;
+}
+.project-item:hover{
+  height: 135px;
+  width: 33%;
+}
+.contact-me {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-me form {
+  display: inline-block;
+  text-align: left;
+  width: 400px;
+  height: 300px;
+}
+
+.contact-me label {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact-me input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.message1{
+  width: 300px;
+  height: 90px;
+  border-radius: 7px;
+  margin-left: 45px;
+}
+.sumbutton{
+  margin-left: 170px;
+}
+.contact-me button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #287fa7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-me button:hover {
+  background-color: #2c2ac2;
+}
+footer{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(38, 41, 41);
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
